@@ -1,6 +1,6 @@
 {
   "name": "spa-utility-module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "ISC",
   "homepage": "https://github.com/steven-kolamkuzhiyil/lib-injection-issue",
   "main": "dist/stko-utitlity-module.js",
@@ -9,7 +9,7 @@
     "dist"
   ],
   "bugs": {
-    "email": "stevenkolamkuzhiyil@gmail.com",
+    "email": "steven.kolamkuzhiyil@cpb-software.com",
     "url": "https://github.com/steven-kolamkuzhiyil/lib-injection-issue/issues"
   },
   "repository": {
@@ -24,11 +24,11 @@
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently npm:build:*",
     "build:webpack": "webpack --mode=production",
+    "build:publish": "npm run build:webpack && npm run build:types && npm publish",
     "analyze": "webpack --mode=production --env analyze",
     "lint": "eslint src --ext js,ts,tsx",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
-    "prepare": "husky install",
     "test": "cross-env BABEL_ENV=test jest --passWithNoTests",
     "watch-tests": "cross-env BABEL_ENV=test jest --watch",
     "coverage": "cross-env BABEL_ENV=test jest --coverage",
