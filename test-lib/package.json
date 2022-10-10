@@ -43,6 +43,6 @@
     "typescript": "~4.1.5"
   },
   "peerDependencies": {
-    "@stko/utility-module": "../utility-module"
+    "spa-utility-module": "../utility-module"
   }
 }

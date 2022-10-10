@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { publicApiFunction } from '@stko/utility-module';
+import { publicApiFunction } from 'spa-utility-module';
 
 @Injectable({
   providedIn: 'root'
