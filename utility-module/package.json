@@ -1,10 +1,10 @@
 {
   "name": "spa-utility-module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "ISC",
   "homepage": "https://github.com/steven-kolamkuzhiyil/lib-injection-issue",
-  "main": "dist/stko-utitlity-module.js",
-  "types": "dist/stko-utitlity-module.d.ts",
+  "main": "dist/spa-utility-module.js",
+  "types": "dist/spa-utility-module.d.ts",
   "files": [
     "dist"
   ],

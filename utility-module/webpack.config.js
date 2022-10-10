@@ -3,8 +3,8 @@ const singleSpaDefaults = require("webpack-config-single-spa-ts");
 
 module.exports = (webpackConfigEnv, argv) => {
   const defaultConfig = singleSpaDefaults({
-    orgName: "stko",
-    projectName: "spa-utility-module",
+    orgName: "spa",
+    projectName: "utility-module",
     webpackConfigEnv,
     argv,
   });

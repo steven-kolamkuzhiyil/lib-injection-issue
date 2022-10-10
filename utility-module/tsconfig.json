@@ -1,6 +1,8 @@
 {
   "extends": "ts-config-single-spa",
-  "files": ["src/stko-utility-module.ts"],
+  "files": [
+    "src/spa-utility-module.ts"
+  ],
   "compilerOptions": {
     "target": "ES2015",
     "module": "ES2015",
