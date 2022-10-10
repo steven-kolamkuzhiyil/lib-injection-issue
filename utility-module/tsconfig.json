@@ -1,0 +1,12 @@
+{
+  "extends": "ts-config-single-spa",
+  "files": ["src/stko-utility-module.ts"],
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ES2015",
+    "declarationDir": "dist",
+    "declaration": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
+}
